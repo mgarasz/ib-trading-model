@@ -12,7 +12,7 @@ class IBConnect:
         self.order_id = None 
         self.port = 4002
         self.clientId = 666
-        self.account_id = 'DU1107194'
+        self.account_id = 'YOUR ACCOUNT ID'
         self.total_usd_cash = None
         self.current_position_value = None
     
