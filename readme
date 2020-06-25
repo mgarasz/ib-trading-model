@@ -1,0 +1,9 @@
+# Overview
+The project presents a basic framework demonstrating how to interface with the Interactive Brokers API and execute trading decisions as determined by a classifier.
+
+This iteration of the program is a buy-only model, but can be extended for multiclass and regression models to decide positions. Given some assumptions, a rudimentary 
+backtesting process is carried out, examining what positions are held, for how long (until classication is opposite of original position entry (ie., Buy becomes Sell)) and 
+last known price. Trading fees can also be incorporated into return.
+
+A severe caveat to be noted with this framework is that input data is not directly fed from IB to the model, but acquired through free third-party sources. In a productionized
+environment, it is essential to use data from the platform from which you are executing your trades. 
